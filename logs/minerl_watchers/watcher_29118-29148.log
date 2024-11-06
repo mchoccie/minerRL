@@ -1,0 +1,9 @@
+2024-11-06 01:20:37 LAPTOP-S7QN6TLR process_watcher[29189] INFO Process watcher started between parent 29118 and child 29148 
+2024-11-06 01:26:59 LAPTOP-S7QN6TLR process_watcher[29189] INFO Parent is not running, hence we need terminate the child.
+2024-11-06 01:26:59 LAPTOP-S7QN6TLR process_watcher[29189] INFO About to reap process tree of 29148:launchClient.sh:/usr/bin/bash i sleeping, owner 17873, printing process tree status in termination order:
+2024-11-06 01:26:59 LAPTOP-S7QN6TLR process_watcher[29189] INFO 	-29152:java:/usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java i sleeping, owner 29148
+2024-11-06 01:26:59 LAPTOP-S7QN6TLR process_watcher[29189] INFO 	-29148:launchClient.sh:/usr/bin/bash i sleeping, owner 17873
+2024-11-06 01:26:59 LAPTOP-S7QN6TLR process_watcher[29189] INFO Trying to SIGTERM 29152:java:/usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java i sleeping, owner 29148
+2024-11-06 01:27:04 LAPTOP-S7QN6TLR process_watcher[29189] INFO Process 29152 survived SIGTERM; trying SIGKILL on 29152:java:/usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java i sleeping, owner 29148
+2024-11-06 01:27:04 LAPTOP-S7QN6TLR process_watcher[29189] INFO Process psutil.Process(pid=29152, name='java', status='terminated', started='01:20:35') terminated with exit code None
+2024-11-06 01:27:04 LAPTOP-S7QN6TLR process_watcher[29189] INFO Process psutil.Process(pid=29148, name='launchClient.sh', status='terminated', started='01:20:35') does not exist or is zombie.
